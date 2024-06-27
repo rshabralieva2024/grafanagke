@@ -47,4 +47,4 @@ jobs:
       run: |
         gcloud components update
         gcloud container clusters get-credentials gke-project-426920-gke --region us-east5 --project gke-project-426920
-        helm install my-grafana grafana/grafana -f values.yaml -n grafana
+        helm install my-grafana grafana/grafana -f values.yaml -n grafana 
