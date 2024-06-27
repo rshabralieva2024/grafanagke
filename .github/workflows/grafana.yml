@@ -33,7 +33,7 @@ jobs:
       with:
         depth: 1
         branch: 'main'
-        owner: 'dlysenko6745'
+        owner: 'rshabralieva2024'
         repository: 'grafanagke'
     
     - name: Access cloned repo
